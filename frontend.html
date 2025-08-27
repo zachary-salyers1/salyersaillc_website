@@ -153,6 +153,7 @@
             font-size: 1.5rem;
             font-weight: bold;
             background: linear-gradient(135deg, #667eea, #764ba2);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: glow 2s ease-in-out infinite alternate;
@@ -164,6 +165,7 @@
             animation: none;
             transition: all 0.3s ease;
             background: inherit;
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -234,9 +236,7 @@
             align-items: center;
         }
 
-        .hero-text {
-            /* Animation handled by scroll reveal */
-        }
+
 
         .hero h1 {
             font-size: 4rem;
@@ -246,6 +246,7 @@
 
         .gradient-text {
             background: linear-gradient(135deg, #667eea, #764ba2, #06b6d4, #667eea);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: gradient-shift 3s ease infinite;
@@ -532,6 +533,7 @@
             font-size: 3rem;
             font-weight: bold;
             background: linear-gradient(135deg, #667eea, #764ba2);
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -1349,27 +1351,6 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="stats-container">
-            <div class="stat-item reveal reveal-flip-x">
-                <div class="stat-number">95%</div>
-                <p>Efficiency Increase</p>
-            </div>
-            <div class="stat-item reveal reveal-bounce">
-                <div class="stat-number">50+</div>
-                <p>Happy Clients</p>
-            </div>
-            <div class="stat-item reveal reveal-spiral">
-                <div class="stat-number">24/7</div>
-                <p>AI Support</p>
-            </div>
-            <div class="stat-item reveal reveal-flip-x">
-                <div class="stat-number">10x</div>
-                <p>ROI Average</p>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section class="contact reveal reveal-card-flip" id="contact">
