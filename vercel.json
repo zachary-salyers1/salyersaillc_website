@@ -19,38 +19,10 @@
       "use": "@vercel/next"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/app/(.*)",
-      "dest": "/salyers-ai-app/$1"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/services",
-      "dest": "/services.html"
-    },
-    {
-      "src": "/blog",
-      "dest": "/blog.html"
-    },
-    {
-      "src": "/contact",
-      "dest": "/contact.html"
-    },
-    {
-      "src": "/frontend",
-      "dest": "/frontend.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/app/(.*)",
+      "destination": "/salyers-ai-app/$1"
     }
   ],
   "headers": [
