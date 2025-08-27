@@ -1,0 +1,69 @@
+{
+  "name": "salyers-ai-website",
+  "version": "1.0.0",
+  "description": "Official website for Salyers AI - AI-driven automation solutions",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Static site - no build process required'",
+    "deploy": "vercel --prod",
+    "preview": "vercel",
+    "clean": "rm -rf .vercel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salyersai/website"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "ai",
+    "automation",
+    "business-intelligence",
+    "machine-learning",
+    "data-analytics",
+    "process-optimization",
+    "predictive-intelligence",
+    "nlp",
+    "chatbots",
+    "enterprise-solutions"
+  ],
+  "author": {
+    "name": "Zachary Salyers",
+    "email": "zachary@salyersai.com",
+    "url": "https://salyersai.com"
+  },
+  "license": "MIT",
+  "homepage": "https://salyersai.com",
+  "bugs": {
+    "url": "https://github.com/salyersai/website/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "meta": {
+    "title": "Salyers AI - Innovating for Tomorrow",
+    "description": "Empowering businesses with cutting-edge AI-driven automation solutions. Transform your operations, amplify efficiency, and unlock unprecedented growth.",
+    "keywords": "AI, artificial intelligence, automation, business intelligence, machine learning, data analytics",
+    "author": "Salyers AI",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "robots": "index, follow",
+    "language": "en-US",
+    "geo.region": "US-KY",
+    "geo.placename": "Independence, Kentucky",
+    "og:title": "Salyers AI - AI-Driven Business Automation",
+    "og:description": "Transform your business with intelligent AI solutions. From process automation to predictive analytics, we help businesses unlock their full potential.",
+    "og:type": "website",
+    "og:url": "https://salyersai.com",
+    "og:site_name": "Salyers AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Salyers AI - Innovating for Tomorrow",
+    "twitter:description": "Empowering businesses with cutting-edge AI-driven automation solutions."
+  }
+}

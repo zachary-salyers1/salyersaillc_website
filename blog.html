@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Salyers AI</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-text">Salyers AI</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">AI <span class="gradient-text">Insights</span></h1>
+                <p class="page-subtitle">Stay ahead of the curve with the latest in artificial intelligence and business automation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="featured-post">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <div class="image-placeholder">
+                        <div class="placeholder-text">Featured Article</div>
+                    </div>
+                </div>
+                <div class="featured-text">
+                    <div class="post-meta">
+                        <span class="post-category">AI Strategy</span>
+                        <span class="post-date">December 15, 2024</span>
+                    </div>
+                    <h2>The Future of Business Automation: 5 Trends to Watch in 2025</h2>
+                    <p>As we move into 2025, artificial intelligence continues to reshape the business landscape. From intelligent process automation to predictive analytics, discover the key trends that will define the next wave of business transformation.</p>
+                    <a href="#" class="read-more-btn">Read Full Article →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="blog-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-category="all">All Posts</button>
+                <button class="filter-btn" data-category="ai-strategy">AI Strategy</button>
+                <button class="filter-btn" data-category="automation">Automation</button>
+                <button class="filter-btn" data-category="case-studies">Case Studies</button>
+                <button class="filter-btn" data-category="industry-insights">Industry Insights</button>
+                <button class="filter-btn" data-category="tutorials">Tutorials</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="blog-card" data-category="ai-strategy">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🤖</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">AI Strategy</span>
+                            <span class="post-date">December 10, 2024</span>
+                        </div>
+                        <h3>How to Build an AI-First Culture in Your Organization</h3>
+                        <p>Creating a culture that embraces artificial intelligence requires more than just technology. Learn the essential steps to prepare your team for the AI revolution.</p>
+                        <div class="card-footer">
+                            <span class="read-time">5 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="blog-card" data-category="automation">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">⚙️</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Automation</span>
+                            <span class="post-date">December 5, 2024</span>
+                        </div>
+                        <h3>Robotic Process Automation: A Beginner's Guide</h3>
+                        <p>Discover how RPA can streamline your business processes and reduce operational costs. A comprehensive introduction to getting started with automation.</p>
+                        <div class="card-footer">
+                            <span class="read-time">7 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="blog-card" data-category="case-studies">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">📊</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Case Studies</span>
+                            <span class="post-date">November 28, 2024</span>
+                        </div>
+                        <h3>Manufacturing Giant Reduces Costs by 40% with AI</h3>
+                        <p>See how a leading manufacturer implemented predictive maintenance and quality control systems to achieve dramatic cost savings and efficiency gains.</p>
+                        <div class="card-footer">
+                            <span class="read-time">6 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="blog-card" data-category="industry-insights">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🏥</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Industry Insights</span>
+                            <span class="post-date">November 20, 2024</span>
+                        </div>
+                        <h3>AI in Healthcare: Transforming Patient Care</h3>
+                        <p>Explore how artificial intelligence is revolutionizing healthcare delivery, from diagnostic imaging to personalized treatment plans.</p>
+                        <div class="card-footer">
+                            <span class="read-time">8 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="blog-card" data-category="tutorials">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">💡</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Tutorials</span>
+                            <span class="post-date">November 15, 2024</span>
+                        </div>
+                        <h3>Building Your First Chatbot: Step-by-Step Guide</h3>
+                        <p>Learn how to create an intelligent chatbot from scratch using modern NLP techniques and deployment best practices.</p>
+                        <div class="card-footer">
+                            <span class="read-time">12 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 6 -->
+                <article class="blog-card" data-category="ai-strategy">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🎯</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">AI Strategy</span>
+                            <span class="post-date">November 8, 2024</span>
+                        </div>
+                        <h3>ROI Measurement for AI Projects: Best Practices</h3>
+                        <p>Learn how to effectively measure and demonstrate the return on investment for your AI initiatives with proven frameworks and metrics.</p>
+                        <div class="card-footer">
+                            <span class="read-time">9 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 7 -->
+                <article class="blog-card" data-category="case-studies">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🛒</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Case Studies</span>
+                            <span class="post-date">October 30, 2024</span>
+                        </div>
+                        <h3>E-commerce Success: AI-Powered Personalization</h3>
+                        <p>Discover how a major retailer increased sales by 35% using AI-driven product recommendations and personalized shopping experiences.</p>
+                        <div class="card-footer">
+                            <span class="read-time">5 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 8 -->
+                <article class="blog-card" data-category="industry-insights">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🌱</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Industry Insights</span>
+                            <span class="post-date">October 25, 2024</span>
+                        </div>
+                        <h3>Sustainable AI: Environmental Impact and Solutions</h3>
+                        <p>Examining the environmental footprint of AI systems and exploring sustainable approaches to artificial intelligence development.</p>
+                        <div class="card-footer">
+                            <span class="read-time">7 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 9 -->
+                <article class="blog-card" data-category="automation">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <div class="placeholder-icon">🔄</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="post-meta">
+                            <span class="post-category">Automation</span>
+                            <span class="post-date">October 18, 2024</span>
+                        </div>
+                        <h3>Process Mining: Uncovering Hidden Inefficiencies</h3>
+                        <p>Learn how process mining can reveal bottlenecks and optimization opportunities in your business workflows.</p>
+                        <div class="card-footer">
+                            <span class="read-time">6 min read</span>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="btn btn-secondary load-more-btn">Load More Articles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated with AI Insights</h2>
+                <p>Get the latest articles, case studies, and AI trends delivered to your inbox weekly.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Salyers AI</div>
+                    <p class="footer-description">Innovating for Tomorrow</p>
+                    <p class="footer-location">Independence, KY</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#documentation">Documentation</a></li>
+                            <li><a href="#support">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#linkedin">LinkedIn</a></li>
+                            <li><a href="#twitter">Twitter</a></li>
+                            <li><a href="#github">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Salyers AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Blog page specific styles */
+        .page-hero {
+            padding: 8rem 0 4rem;
+            background: linear-gradient(135deg, var(--dark) 0%, var(--dark-secondary) 100%);
+            text-align: center;
+        }
+
+        .page-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .page-subtitle {
+            font-size: 1.2rem;
+            color: var(--gray-300);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Featured Post */
+        .featured-post {
+            padding: 3rem 0;
+        }
+
+        .featured-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .featured-image .image-placeholder {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(118, 75, 162, 0.2));
+            border-radius: 15px;
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .placeholder-text {
+            color: var(--primary);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .featured-text h2 {
+            color: var(--light);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .featured-text p {
+            color: var(--gray-300);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            align-items: center;
+        }
+
+        .post-category {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .post-date {
+            color: var(--gray-300);
+            font-size: 0.9rem;
+        }
+
+        .read-more-btn {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .read-more-btn:hover {
+            color: var(--light);
+        }
+
+        /* Blog Filter */
+        .blog-filter {
+            padding: 2rem 0;
+            background: rgba(99, 102, 241, 0.05);
+        }
+
+        .filter-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: transparent;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            color: var(--gray-300);
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Blog Posts Grid */
+        .blog-posts {
+            padding: 4rem 0;
+        }
+
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-card {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(99, 102, 241, 0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-image {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-image .image-placeholder {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(118, 75, 162, 0.15));
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .placeholder-icon {
+            font-size: 2.5rem;
+            opacity: 0.7;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-content h3 {
+            color: var(--light);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+
+        .card-content p {
+            color: var(--gray-300);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .read-time {
+            color: var(--gray-300);
+            font-size: 0.9rem;
+        }
+
+        .read-more {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: var(--light);
+        }
+
+        /* Load More */
+        .load-more-section {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        /* Newsletter Section */
+        .newsletter {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .newsletter-content h2 {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .newsletter-content p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .newsletter-form .form-group {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+            gap: 1rem;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            background: white;
+            color: var(--dark);
+        }
+
+        .newsletter-form button {
+            white-space: nowrap;
+            background: var(--dark);
+            border: 2px solid var(--dark);
+        }
+
+        .newsletter-form button:hover {
+            background: transparent;
+            color: var(--dark);
+        }
+
+        .nav-link.active {
+            color: var(--primary);
+        }
+
+        /* Filtering Animation */
+        .blog-card.hidden {
+            display: none;
+        }
+
+        .blog-card.fade-out {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+
+        .blog-card.fade-in {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 2.5rem;
+            }
+
+            .featured-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .featured-text h2 {
+                font-size: 1.5rem;
+            }
+
+            .filter-controls {
+                gap: 0.5rem;
+            }
+
+            .filter-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .newsletter-content h2 {
+                font-size: 2rem;
+            }
+
+            .newsletter-form .form-group {
+                flex-direction: column;
+            }
+
+            .newsletter-form input,
+            .newsletter-form button {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Blog filtering functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const category = this.dataset.category;
+                
+                // Update active filter button
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter blog cards
+                document.querySelectorAll('.blog-card').forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Newsletter form
+        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            
+            if (email) {
+                showMessage('Thank you for subscribing to our newsletter!', 'success');
+                this.reset();
+            }
+        });
+
+        // Load more functionality (simulated)
+        document.querySelector('.load-more-btn').addEventListener('click', function() {
+            this.textContent = 'Loading...';
+            this.disabled = true;
+            
+            setTimeout(() => {
+                this.textContent = 'Load More Articles';
+                this.disabled = false;
+                showMessage('More articles loaded!', 'success');
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
